@@ -2,14 +2,39 @@ header {
     width: 100%;
     height: 100px;
     background-color: rgb(29, 32, 34);
+    font-size: 20px;
+}
+
+#center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -70px;
+}
+
+#center svg {
+    width: 20px;
+    color: white;
+}
+
+#center a {
+    color: white;
 }
 
 #center li {
     display: inline;
     left: 50%;
     transform: translateX(-50%);
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #right {
     float: right;
+}
+
+#left img {
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 10px;
 }
