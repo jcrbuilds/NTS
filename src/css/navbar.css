@@ -30,11 +30,26 @@ header {
 }
 
 #right {
-    float: right;
+    position: absolute;
+    margin-top: -70px;
+    right: 10px;
+}
+
+#right li {
+    display: inline;
 }
 
 #left img {
     width: 70px;
     margin-top: 15px;
     margin-left: 10px;
+    transition: 0.2s;
+}
+
+#left img:hover {
+    transform: scale(1.1);
+}
+
+#left img:active {
+    transform: scale(1);
 }
