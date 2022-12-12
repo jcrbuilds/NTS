@@ -3,6 +3,8 @@ header {
     height: 100px;
     background-color: rgb(29, 32, 34, 0.7);
     font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #center {

@@ -24,7 +24,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px;
-    margin-top: 200px;
+    margin-top: 10px;
 }
 
-
+.box-margin {
+    margin-top: 180px;
+}
