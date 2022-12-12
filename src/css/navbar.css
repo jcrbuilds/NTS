@@ -39,6 +39,18 @@ header {
     display: inline;
 }
 
+#right a {
+    text-decoration: none;
+}
+
+#right i {
+    color: grey;
+}
+
+#right i:hover {
+    color: #5e5e5e;
+}
+
 #left img {
     width: 70px;
     margin-top: 15px;

@@ -1,0 +1,22 @@
+main {
+    margin-top: 30px;
+}
+
+#nts {
+    text-align: center;
+}
+
+#nts img {
+    width: 200px;
+}
+
+#nts h1 {
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#informal {
+    margin-top: 20px;
+}
