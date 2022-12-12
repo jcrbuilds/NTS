@@ -10,9 +10,35 @@ main {
     width: 200px;
 }
 
-#nts h1 {
+h1 {
     color: white;
     font-weight: 800;
     margin-top: 20px;
     font-size: 40px;
+    text-align: center;
+}
+
+#events{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#event{
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#event p i, #event a{
+    padding-left: 10px;
+}
+
+.event-banner{
+    max-width: 100%;
+    border-radius: 10px;
 }
