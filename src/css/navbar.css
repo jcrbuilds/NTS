@@ -12,10 +12,11 @@ header {
     left: 50%;
     transform: translateX(-50%);
     margin-top: -70px;
+    font-size: 23px;
 }
 
 #center svg {
-    width: 20px;
+    width: 23px;
     color: white;
 }
 
