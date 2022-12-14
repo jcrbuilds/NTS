@@ -1,5 +1,5 @@
 .Code-wrapper{
-    width: 780px;
+    width: 1080px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -8,11 +8,28 @@
     border-radius: 8px;
     margin: 5px;
     float: left;
-    width: 250px;
-    background-color: aqua;
+    width: 350px;
+    padding: 10px;
+    background-color: rgba(29, 32, 34, 0.918);
     text-align: center;
+    contain: content;
+    color: white;
+}
+
+.Codecont a{
+    color: white;
+    padding: 10px 20px;
+}
+
+.Codecont a:hover{
+    color: white;
+}
+
+.Codecont h1{
+    font-size: 25px;
 }
 
 .Codecont img{
     width: 100%;
+    border-radius: 8px;
 }
