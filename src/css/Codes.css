@@ -9,6 +9,7 @@
     margin: 5px;
     float: left;
     width: 350px;
+    height: 300px;
     padding: 10px;
     background-color: rgba(29, 32, 34, 0.918);
     text-align: center;
@@ -31,5 +32,17 @@
 
 .Codecont img{
     width: 100%;
+    border-radius: 8px;
+}
+
+.saveeditsearch{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    background-color: rgba(29, 32, 34, 0.918);
+    color: white;
     border-radius: 8px;
 }
