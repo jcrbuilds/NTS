@@ -1,0 +1,18 @@
+.Code-wrapper{
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Codecont{
+    border-radius: 8px;
+    margin: 5px;
+    float: left;
+    width: 250px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.Codecont img{
+    width: 100%;
+}

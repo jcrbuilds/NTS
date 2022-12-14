@@ -1,5 +1,6 @@
 let jsonData = `[
     {"Name": "Code Here", "req": "Requirements Here", "Image": "https://cdn.discordapp.com/attachments/1032017862027657306/1050741169543462992/ets2_20221120_192654_00.png"},
+    {"Name": "Code Here", "req": "Requirements Here", "Image": "https://cdn.discordapp.com/attachments/1032017862027657306/1050741169543462992/ets2_20221120_192654_00.png"},
     {"Name": "Code Here", "req": "Requirements Here", "Image": "https://cdn.discordapp.com/attachments/1032017862027657306/1050741169543462992/ets2_20221120_192654_00.png"}
   ]`
   
@@ -17,7 +18,10 @@ let jsonData = `[
       if (obj.Name.toLowerCase().includes(input)) {
         const elem = document.createElement("li")
         elem.innerHTML = `
-        ${obj.Name} - ${obj.req} - <img class="event-banner" src="${obj.Image}">`
+        <div class="Codecont">
+        <img src="${obj.Image}"> <p>
+        ${obj.Name} </p> ${obj.req}
+        </div>`
         x.appendChild(elem)
       }
     }
