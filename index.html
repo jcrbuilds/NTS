@@ -76,11 +76,13 @@
 
         <nav id="sidebar">
             <div>
-                <i onclick="toggleNav()" class="fa fa-bars"></i>
-                <a href="index.html">Home</a>
-                <a href="partners.html">Partnerships</a>
-                <a href="team.html">Team</a>
-                <a href="https://discord.gg/night-s-truckstyling-907405033841238026">Discord</a>
+                <button onclick="toggleSidebar()"><i class="fa fa-bars"></i></button>
+                <div id="side-links">
+                    <a href="index.html">Home</a>
+                    <a href="partners.html">Partnerships</a>
+                    <a href="team.html">Team</a>
+                    <a href="https://discord.gg/night-s-truckstyling-907405033841238026">Discord</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -128,5 +130,6 @@
     </footer>
 
     <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/navbar.js"></script>
 </body>
 </html>
