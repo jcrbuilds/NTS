@@ -7,14 +7,14 @@
 
 body {
     font-family: "Nunito";
-    background-image: url('https://cdn.discordapp.com/attachments/919685229243945030/919687046858153994/ets2_20211212_184408_00.png');    
+    background-image: url('https://cdn.discordapp.com/attachments/1032383310229405696/1053017286228836352/ets2_20221015_135227_00.png');    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .text-box {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(27, 27, 27, 0.7);
     border-radius: 10px;
     max-width: 1000px;
     display: flex;
@@ -23,6 +23,7 @@ body {
     padding: 8px;
     margin: auto;
     margin-top: 10px;
+    color: white;
 }
 
 .box-margin {
