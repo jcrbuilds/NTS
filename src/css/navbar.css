@@ -78,11 +78,29 @@ header {
         display: none;
     }
 
+    header {
+        height: 50px;
+    }
+
     #sidebar {
         display: block;
-        width: 200px;
+        width: 0px;
         height: 100%;
-        position: fixed;
+        position: absolute;
+        transition: 0.2s;
+        margin-top: 7px;
+    }
+
+    #sidebar button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        margin-left: 10px;
+    }
+
+    #sidebar button:focus {
+        border: none;
+        outline: none;
     }
 
     #sidebar a {
@@ -91,5 +109,10 @@ header {
 
     #sidebar i {
         color: white;
+    }
+
+    #sidebar a {
+        margin-left: -90px;
+        transition: 0.2s;
     }
 }
