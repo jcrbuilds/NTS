@@ -68,3 +68,28 @@ header {
 #left img:active {
     transform: scale(1);
 }
+
+#sidebar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+
+    #sidebar {
+        display: block;
+        width: 200px;
+        height: 100%;
+        position: fixed;
+    }
+
+    #sidebar a {
+        color: white;
+    }
+
+    #sidebar i {
+        color: white;
+    }
+}
