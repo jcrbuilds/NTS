@@ -66,4 +66,8 @@ h1 {
     .text-box {
         width: 300px;
     }
+
+    .mySlides img {
+        width: 300px;
+    }
 }
