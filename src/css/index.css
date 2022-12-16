@@ -25,9 +25,11 @@ h1 {
 .mySlides{
     display: block;
     overflow-x: hidden;
-    width: 70%;
     margin: auto;
     text-align: center;
+    width: 80%;
+    max-width: 1205px;
+    min-width: 305px;
 }
 
 .mySlides.fade{
@@ -36,4 +38,5 @@ h1 {
 
 .mySlides img{
     border-radius: 10px;
+    width: 100%;
 }
