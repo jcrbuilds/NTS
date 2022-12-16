@@ -17,3 +17,23 @@ h1 {
     font-size: 40px;
     text-align: center;
 }
+
+#slideshow-container{
+    padding-top: 50px;
+}
+
+.mySlides{
+    display: block;
+    overflow-x: hidden;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.mySlides.fade{
+    opacity: 100%;
+}
+
+.mySlides img{
+    border-radius: 10px;
+}
