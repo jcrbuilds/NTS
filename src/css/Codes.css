@@ -4,6 +4,56 @@
     margin-right: auto;
 }
 
+.saveeditsearch{
+    width: 1070px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    background-color: rgba(29, 32, 34, 0.918);
+    color: white;
+    border-radius: 8px;
+    border: 3px solid rgb(27, 27, 27);
+}
+
+
+@media screen and (max-width: 1080px) {
+    .Code-wrapper{
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .saveeditsearch{
+        width: 710px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 10px;
+        background-color: rgba(29, 32, 34, 0.918);
+        color: white;
+        border-radius: 8px;
+        border: 3px solid rgb(27, 27, 27);
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .Code-wrapper{
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .saveeditsearch{
+        width: 350px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 10px;
+        background-color: rgba(29, 32, 34, 0.918);
+        color: white;
+        border-radius: 8px;
+        border: 3px solid rgb(27, 27, 27);
+    }
+  }
+
 .Codecont{
     flex: auto;
     border-radius: 8px;
@@ -52,17 +102,8 @@
     color: rgba(0, 89, 255, 0.637);;
 }
 
-.saveeditsearch{
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 10px;
-    background-color: rgba(29, 32, 34, 0.918);
-    color: white;
-    border-radius: 8px;
-    border: 3px solid rgb(27, 27, 27);
+p{
+    padding-top: 20px;
 }
 
 .input {
@@ -87,9 +128,3 @@ input:focus {
     border-color: rgb(0, 111, 238);;
     box-shadow: 0 0 10px rgb(0, 111, 238);;
  }
-
-
-@media (max-width: 768px) {
-     
-}
-
