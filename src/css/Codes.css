@@ -4,22 +4,6 @@
     margin-right: auto;
 }
 
-@media screen and (max-width: 1080px) {
-    .Code-wrapper{
-        max-width: 720px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-  }
-
-  @media screen and (max-width: 720px) {
-    .Code-wrapper{
-        max-width: 360px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-  }
-
 .Codecont{
     flex: auto;
     border-radius: 8px;
@@ -103,3 +87,9 @@ input:focus {
     border-color: rgb(0, 111, 238);;
     box-shadow: 0 0 10px rgb(0, 111, 238);;
  }
+
+
+@media (max-width: 768px) {
+     
+}
+

@@ -90,6 +90,7 @@ header {
         position: fixed;
         transition: 0.2s;
         margin-top: 7px;
+        z-index: 999;
     }
 
     .sidebar button {
@@ -117,7 +118,7 @@ header {
     #side-links {
         transition: 0.2s;
         margin-left: -150px;
-        margin-top: 8.9px;
+        margin-top: 8px;
         position: absolute;
         height: 100%;
         width: 150px;

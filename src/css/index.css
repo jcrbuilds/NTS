@@ -17,3 +17,30 @@ h1 {
     font-size: 40px;
     text-align: center;
 }
+
+.text-box {
+    background-color: rgba(27, 27, 27, 0.7);
+    border-radius: 10px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+}
+
+.box-margin {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-top: 35px;
+    }
+
+    .text-box {
+        width: 300px;
+    }
+}

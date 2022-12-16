@@ -48,3 +48,24 @@ h1{
 .partnername{
     color: white;
 }
+
+@media (max-width: 768px) {
+    .Founders {
+        padding-top: 60px;
+    }
+
+    .Card {
+        min-width: 130px;
+    }
+
+    .Card img {
+        min-width: 100px;
+        min-height: 100px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .Card-Wrap {
+        margin-top: 20px;
+    }
+}
