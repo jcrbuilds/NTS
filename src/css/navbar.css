@@ -3,8 +3,6 @@ header {
     height: 100px;
     background-color: rgb(29, 32, 34, 0.7);
     font-size: 20px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 
 #center {
@@ -69,8 +67,9 @@ header {
     transform: scale(1);
 }
 
-#sidebar {
+.sidebar {
     display: none;
+    position: fixed;
 }
 
 @media (max-width: 768px) {
@@ -80,39 +79,69 @@ header {
 
     header {
         height: 50px;
+        position: fixed;
+        top: 0;
     }
 
-    #sidebar {
+    .sidebar {
         display: block;
         width: 0px;
         height: 100%;
-        position: absolute;
+        position: fixed;
         transition: 0.2s;
         margin-top: 7px;
     }
 
-    #sidebar button {
+    .sidebar button {
         background-color: transparent;
         border: none;
         outline: none;
-        margin-left: 10px;
+        margin-left: 12px;
+        margin-top: 4px;
     }
 
-    #sidebar button:focus {
+    .sidebar button:focus {
         border: none;
         outline: none;
     }
 
-    #sidebar a {
+    .sidebar a {
         color: white;
     }
 
-    #sidebar i {
+    .sidebar i {
         color: white;
+        font-size: 25px;
     }
 
-    #sidebar a {
-        margin-left: -90px;
+    #side-links {
         transition: 0.2s;
+        margin-left: -150px;
+        margin-top: 8.9px;
+        position: absolute;
+        height: 100%;
+        width: 150px;
+        text-align: center;
+        background-color: rgb(29, 32, 34, 0.7);
+    }
+
+    #side-a {
+        padding-top: 10px;
+    }
+    
+    #side-a a {
+        font-size: 15px;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #side-a i {
+        vertical-align: middle;
+        padding-right: 4px;
+    }
+
+    #side-a svg {
+        margin-top: -5px;
     }
 }
