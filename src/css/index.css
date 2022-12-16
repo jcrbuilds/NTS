@@ -18,6 +18,7 @@ h1 {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .text-box {
     background-color: rgba(27, 27, 27, 0.7);
     border-radius: 10px;
@@ -43,4 +44,27 @@ h1 {
     .text-box {
         width: 300px;
     }
+=======
+#slideshow-container{
+    padding-top: 50px;
+}
+
+.mySlides{
+    display: block;
+    overflow-x: hidden;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    max-width: 1205px;
+    min-width: 305px;
+}
+
+.mySlides.fade{
+    opacity: 100%;
+}
+
+.mySlides img{
+    border-radius: 10px;
+    width: 100%;
+>>>>>>> cff94455e5bbdbf888f19aaf7eae184d7e959b62
 }
