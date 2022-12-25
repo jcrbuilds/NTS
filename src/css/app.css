@@ -1,0 +1,23 @@
+#countdown, #aboutapp {
+    display: block;
+}
+
+#aboutapp p {
+    margin-left: 100px;
+}
+
+.text-box {
+    margin-top: 35px;
+}
+
+.text-box h1, #demo {
+    text-align: center;
+}
+
+.text-box p {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 35px;
+}

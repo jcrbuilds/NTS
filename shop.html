@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTS - Shop</title>
 
-   <!-- these link tags have to be in every html file!!! -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../src/css/footer.css">
     <link rel="stylesheet" href="../src/css/navbar.css">
     <link rel="stylesheet" href="../src/css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1045042395634466916/1051524416426737714/nts_logo.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="../src/css/partners.css">
-
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,1000&display=swap" rel="stylesheet">
-
-    <title>NTS - Partners</title>
 </head>
 <body>
+
     <header>
         <nav id="navbar">
             <div id="left">
@@ -49,8 +42,8 @@
                         Discord-Server</a>
                     </li>
                     <li><a href="app.html">
-                        <i class="fa fa-search"></i>
-                        Codes
+                        <i class="fa fa-download"></i>
+                        App
                     </a></li>
                 </ul>
             </div>
@@ -91,81 +84,21 @@
         <script src="./src/scripts/navbar.js"></script>
     </header>
 
-    <div class="Founders">
-        <h1>Our Partners</h1>
-        <div class="Card-Wrap">
-        <div class="Card">
-            <img src="https://lh4.googleusercontent.com/-bVXNDee618Fm8JaCxGeeQPKg7W2erllOTjOtzMvj6_MqTxv9F5wAX1aLgu1mhgw8FrjEW7H6LHKcXKIDyiHpmkOm-ep9OlsRpjzdFCC_AaNd-HtA_op3wq4YqIfAyTG3g=w240">
-            <p><a class="partnername" href="//discord.gg/qVcb82AUbm">FullSet LocalMods</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://cdn.discordapp.com/attachments/1052222712971546704/1052325712062849085/InShot_20221029_005454821.png?size=240">
-            <p><a class="partnername" href="//discord.gg/HVsnWs6RBp">Boogie Style</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://cdn.discordapp.com/attachments/963191311022846015/1031681092551442463/57150.1661636267.png?size=240">
-            <p><a class="partnername" href="//discord.gg/KWaRVVD4KN">Truck Club</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://static.truckersmp.com/images/vtc/logo/50251.1656901783.png">
-            <p><a class="partnername" href="//discord.gg/5trzbn4DRK">MultiHaulage VTC</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://cdn.discordapp.com/attachments/904778562857480232/1053012081319886858/janisonlyfans.png">
-            <p><a class="partnername" href="//discord.gg/ksZNnuva6w">Janis' Onlynubs</a></p>
-        </div>
-
-        </div>
+    <div id="myShop">
+        <a href="https://NightsTruckstyling.myspreadshop.co.uk">NightsTruckstyling</a>
     </div>
-
     
-    </div>
-
-    <footer class="footer">
-        <div class="footer">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>project</h4>
-                    <ul>
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">privacy services</a></li>
-                        <li><a href="#">affiliate program</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>online shop</h4>
-                    <ul>
-                        <li><a href="#">watch</a></li>
-                        <li><a href="#">bag</a></li>
-                        <li><a href="#">shoes</a></li>
-                        <li><a href="#">dress</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Socials</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <script>
+        var spread_shop_config = {
+            shopName: 'NightsTruckstyling',
+            locale: 'en_GB',
+            prefix: 'https://NightsTruckstyling.myspreadshop.co.uk',
+            baseId: 'myShop'
+        };
+    </script>
+    
+    <script type="text/javascript"
+            src="https://NightsTruckstyling.myspreadshop.co.uk/shopfiles/shopclient/shopclient.nocache.js">
+    </script>
 </body>
+</html>

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../src/css/general.css">
     <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1045042395634466916/1051524416426737714/nts_logo.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="../src/css/Codes.css">
+    <link rel="stylesheet" href="./src/css/app.css">
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,1000&display=swap" rel="stylesheet">
 
-    <title>NTS - Codes</title>
+    <title>NTS - App</title>
 </head>
 <body>
     <header>
@@ -49,9 +49,9 @@
                         <i class="fab fa-discord"></i>
                         Discord-Server</a>
                     </li>
-                    <li><a href="Codes.html">
-                        <i class="fa fa-search"></i>
-                        Codes
+                    <li><a href="app.html">
+                        <i class="fa fa-download"></i>
+                        App
                     </a></li>
                 </ul>
             </div>
@@ -92,10 +92,22 @@
         <script src="./src/scripts/navbar.js"></script>
     </header>
 
-   <center id="searchbarparent"><input id="searchbar" class="saveeditsearch" onkeyup="search_code()" type="text" name="search" placeholder="Search.."></center>
+    <div id="app">
+        <div id="countdown" class="text-box">
+            <h1>NTS App Release Countdown</h1>
+            <p id="demo"></p>
+        </div>
 
-    <div class="Code-wrapper" id="list-holder">
-
+        <div id="aboutapp" class="text-box">
+            <h1>What can you find in the app?</h1>
+            <p>
+                - Tutorials <br>
+                - Save Edit Information <br>
+                - Codes <br>
+                and more will be added with the time! <br>
+                Leave your opinion and suggestions about the app in our <a href="https://discord.gg/night-s-truckstyling-907405033841238026">Discord Server</a>
+            </p>
+        </div>
     </div>
 
     <footer class="footer">
@@ -140,8 +152,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://db.nightstruckstyling.com/db.js"></script>   
     
-    
+    <script src="./src/scripts/app.js"></script>    
 </body>
 </html>
