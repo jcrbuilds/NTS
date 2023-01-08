@@ -25,7 +25,7 @@ h1{
     background-color: rgba(29, 32, 34, 0.918);
     color: white;
     max-width: 40%;
-    min-width: 300px;
+    min-width: 260px;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
@@ -51,12 +51,6 @@ h1{
 @media (max-width: 768px) {
     .team {
         padding-top: 60px;
-    }
-
-    .Card {
-        min-width: 140px;
-        max-width: 140px;
-        display: inline-block;
     }
 
     h1{
