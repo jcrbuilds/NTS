@@ -3,6 +3,7 @@ header {
     height: 100px;
     background-color: rgb(29, 32, 34, 0.7);
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 #center {

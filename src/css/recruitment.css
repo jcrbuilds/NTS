@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(29, 32, 34, 0.7);
+    max-width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.Card-Holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Card{
+    color: white;
+    background-color: rgb(29, 32, 34, 0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 256px;
+}
+
+.app-open{
+    color: rgb(153, 255, 0);
+    font-size: 20px;
+}
+
+.app-closed{
+    color: red;
+    font-size: 20px;
+}
+
+.apply{
+    color: white;
+    padding: 5px 50px;
+    border-radius: 10px;
+    background-color: rgba(29, 32, 34, 0.842);
+}
