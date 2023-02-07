@@ -17,6 +17,8 @@ h1{
     justify-content: space-around;
     align-items: baseline;
     gap: 20px;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .Card{
