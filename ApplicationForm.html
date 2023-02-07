@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- these link tags have to be in every html file!!! -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/css/footer.css">
+    <link rel="stylesheet" href="../src/css/navbar.css">
+    <link rel="stylesheet" href="../src/css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1045042395634466916/1051524416426737714/nts_logo.png" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../src/css/AppForm.css">
+    <script src="../src/scripts/application.js" defer></script>
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,1000&display=swap" rel="stylesheet">
+
     <title>Application</title>
 </head>
 <body>
-    
+    <a href="./index.html"><button class="HomeButton">Home Page</button></a>
+    <form>
+        <label>Please select application type</label><br>
+        <select id='app-type' place onchange="AppChange(this)">
+            <option disabled selected style="display: none;">Please select</option>
+            <option disabled style="color: rgb(102, 255, 102);">Currently Open</option>
+            <option value="Support-Team">Support Team</option>
+            <option value="Save-Edit-Team">Save Edit Team</option>
+            <option value="Modding-Team">Modding Team</option>
+            <option value="Developer">Developer</option>
+            <option disabled style="color: red;">Currently Closed</option>
+            <option value="Moderator" disabled>Moderator</option>
+            <option value="Translator" disabled>Translator</option>
+            <option value="Event-Team" disabled>Event Team</option>
+            <option value="Testing-Team" disabled>Testing Team</option>
+        </select>
+    </form>
+    <form id="Questions">
+    </form>
 </body>
 </html>

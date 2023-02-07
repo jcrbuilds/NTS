@@ -25,3 +25,9 @@ body {
     margin-top: 10px;
     color: white;
 }
+
+@media (max-width: 1000px){
+    main{
+        margin-top: 90px;
+    }
+}

@@ -6,10 +6,15 @@ header {
     margin-bottom: 20px;
 }
 
+#side-links{
+    z-index: 999;
+}
+
 #center {
     margin: auto;
     margin-top: -70px;
     font-size: 23px;
+    width: fit-content;
 }
 
 #center svg {
@@ -29,6 +34,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 10px;
+}
+
+#center i{
+    margin-right: 5px;
 }
 
 #center li {
@@ -74,6 +84,21 @@ header {
 
 #right i:hover {
     color: #b9b9b9;
+}
+
+#right ul{
+ display: flex;
+ gap: 5px;
+ flex-wrap: wrap;
+}
+
+#right a{
+    margin: 0px 2px;
+}
+
+#left{
+    width: fit-content;
+    margin: 0px;
 }
 
 #left img {

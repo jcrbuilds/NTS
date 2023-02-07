@@ -15,6 +15,7 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: baseline;
     gap: 20px;
 }
 

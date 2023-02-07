@@ -50,11 +50,7 @@ h1{
 }
 
 @media (max-width: 768px) {
-    .Founders {
-        padding-top: 60px;
-    }
-
-    .Card {
+   .Card {
         min-width: 130px;
     }
 
@@ -63,9 +59,5 @@ h1{
         min-height: 100px;
         max-width: 100px;
         max-height: 100px;
-    }
-
-    .Card-Wrap {
-        margin-top: 20px;
     }
 }

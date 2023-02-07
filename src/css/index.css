@@ -11,7 +11,7 @@ main {
 }
 
 h1 {
-    color: #dedede;
+    color: #004de6;
     font-weight: 800;
     margin-top: 20px;
     font-size: 40px;
@@ -49,16 +49,14 @@ footer {
     margin-top: 35px;
 }
 
-@media (max-width: 768px) {
-    main {
-        padding-top: 35px;
-    }
+.text-box{
+    width: 90%;
+    max-width: 1000px;
+}
 
-    .text-box {
-        width: 300px;
-    }
+@media (max-width: 768px) {
 
     .mySlides img {
-        width: 300px;
+        width: 90%;
     }
 }

@@ -1,13 +1,16 @@
 #countdown, #aboutapp {
     display: block;
+    margin-top: 10px;
 }
 
 #aboutapp p {
-    margin-left: 100px;
+    margin-left: 15%;
 }
 
 .text-box {
     margin-top: 35px;
+    width: 90%;
+    max-width: 1000px;
 }
 
 .text-box h1, #demo {
