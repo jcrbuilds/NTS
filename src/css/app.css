@@ -11,6 +11,8 @@
     margin-top: 35px;
     width: 90%;
     max-width: 1000px;
+    overflow: hidden;
+    display: block;
 }
 
 .text-box h1, #demo {
@@ -20,6 +22,21 @@
 .text-box p {
     font-size: 20px;
 }
+
+.Min, .Rec{
+    text-align: center;
+}
+
+.Min{
+    float: left;
+    width: 50%;
+}
+
+.Rec{
+    float: right;
+    width: 50%;
+}
+
 
 footer {
     margin-top: 35px;
