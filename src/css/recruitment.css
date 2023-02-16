@@ -10,6 +10,7 @@ h1{
     border-radius: 10px;
 }
 
+
 .Card-Holder{
     display: flex;
     flex-direction: row;
@@ -43,7 +44,17 @@ h1{
 
 .apply{
     color: white;
-    padding: 5px 50px;
+    padding: 10px 50px;
     border-radius: 10px;
     background-color: rgba(29, 32, 34, 0.842);
+    border: none;
+    transition: all 0.2s;
+}
+
+.apply:hover{
+    transform: scale(1.1);
+}
+
+.apply:active{
+    transform: scale(0.9);
 }

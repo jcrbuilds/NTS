@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night's Truckstyling</title>
 
-   <!-- these link tags have to be in every html file!!! -->
+    <!-- these link tags have to be in every html file!!! -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../src/css/footer.css">
     <link rel="stylesheet" href="../src/css/navbar.css">
     <link rel="stylesheet" href="../src/css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1045042395634466916/1051524416426737714/nts_logo.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="../src/css/partners.css">
+    <link rel="stylesheet" href="../src/css/contact.css">
+    <script src="../src/scripts/contact.js" defer></script>
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,1000&display=swap" rel="stylesheet">
-
-    <title>NTS - Partners</title>
 </head>
 <body>
     <header>
@@ -65,41 +67,15 @@
         </div>
         <script src="./src/scripts/navbar.js"></script>
     </header>
-    <main>
-    <div class="Founders">
-        <h1>Our Partners</h1>
-        <div class="Card-Wrap">
-        <div class="Card">
-            <img src="https://cdn-longterm.mee6.xyz/plugins/commands/images/857009746933317632/dc9d186d994a25fa45c3eb330ec3bd2aee6f044a52c81b9e003e291b7d98cf55.png">
-            <p><a class="partnername" href="//discord.gg/qVcb82AUbm">FullSet LocalMods</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://cdn.discordapp.com/attachments/879004504232710186/1064499182188113941/InShot_20221029_005454821.png?size=240">
-            <p><a class="partnername" href="//discord.gg/HVsnWs6RBp">Boogie Style</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://cdn.discordapp.com/attachments/963191311022846015/1031681092551442463/57150.1661636267.png?size=240">
-            <p><a class="partnername" href="//discord.gg/KWaRVVD4KN">Truck Club</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://truckershub.in/images/logo.jpg?size=240">
-            <p><a class="partnername" href="//discord.gg/4YgeT2sx8u">TruckersHub</a></p>
-        </div>
-
-        <div class="Card">
-            <img src="https://cdn.discordapp.com/attachments/904778562857480232/1053012081319886858/janisonlyfans.png">
-            <p><a class="partnername" href="//discord.gg/ksZNnuva6w">Janis' Onlynubs</a></p>
-        </div>
-
-        </div>
-    </div>
-
-    
-    </div>
-    </main>
+    <section>
+        <form id="contact">
+            <label>Please enter your Discord Tag!</label><br>
+            <textarea class="DiscordTag" placeholder="Discord tag" required></textarea><br>
+            <label>Please enter some details on why you are contacting us!</label><br>
+            <textarea required></textarea><br>
+            <button>Submit</button>
+        </form>
+    </section>
     <footer class="footer">
         <div class="footer">
             <div class="row">
@@ -150,5 +126,4 @@
             </div>
         </div>
     </footer>
-
 </body>
